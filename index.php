@@ -13,7 +13,7 @@ if($count>0)
   $row=mysqli_fetch_array($res);
   $_SESSION['id']=$row['id'];
   //echo "<script type='text/javascript'> alert('SUCCESS'); </script>";
- header('location: /fashion/profile.php');
+ header('location: /fashist/profile.php');
 }
 else {
   echo "<script type='text/javascript'> alert('Invalid Credentials'); </script>";

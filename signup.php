@@ -12,7 +12,7 @@ $sql = "INSERT into users (id,name,mail,password,phone) VALUES('$id','$name','$e
 //   echo $sql;
 mysqli_query($conn,$sql);
 $_SESSION['id']=$id;
-header('location: /fashion/index.php');
+header('location: /fashist/index.php');
 mysqli_close($conn);
 }
 ?>
