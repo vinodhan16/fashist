@@ -9,6 +9,9 @@
   <link rel="stylesheet" href="./assets/css/style.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Aladin|Bad+Script|Handlee|Kaushan+Script|Rancho" rel="stylesheet">
 
 </head>
@@ -22,6 +25,9 @@
       <div class="col-sm-12 col-md-7 col-lg-6 mx-auto">
         <div class="card card-signin my-5">
           <div class="card-body">
+        
+               <div class="tab-content" id="myTabContent">
+                     <div class="tab-pane fade show active p-3" id="one" role="tabpanel" aria-labelledby="one-tab">
             <h5 class="card-title text-center">Get In Now!</h5>
             <form class="form-signin" method="post" action="">
               <div class="form-label-group">
@@ -36,14 +42,49 @@
 
               <div class="custom-control custom-checkbox mb-3">
                 <input type="checkbox" class="custom-control-input" id="customCheck1">
+                <label class="custom-control-label" for="customCheck1"> Remember password</label>
+              </div>
+              <button name="login" type="submit" style="background-color:#f229cd;color:#ffffff;" class="btn btn-lg btn-default btn-block text-uppercase" type="submit">Start Exploring</button>
+                <br>
+                       <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+              <center>  <a class="nav-link" id="two-tab" data-toggle="tab" href="#two" role="tab" aria-controls="Two" aria-selected="false"><label >Not Registered yet?</label></a></center>
+            </li>
+          </ul>
+            
+            </form>
+          </div>
+               <div class="tab-pane fade p-3" id="two" role="tabpanel" aria-labelledby="two-tab">
+                    <h5 class="card-title text-center">Help us Know you Better....</h5>
+            <form class="form-signin" method="post" action="">
+             <div class="form-label-group">
+                <input name="email" type="text" id="inputEmail" class="form-control" placeholder="Enter Name.." required autofocus>
+                <label for="inputEmail">Enter Name...</label>
+              </div>
+
+              <div class="form-label-group">
+                 <input name="phone" type="text" class="form-control" placeholder="Phone Number *" value="" required/>
+                  <label for="inputEmail">Contact Number...</label>
+              </div>
+                 <div class="form-label-group">
+                 <input name="password" type="password" class="form-control" placeholder="Your Password *" value="" required/>
+                     <label for="inputEmail">Password...</label>
+              </div>
+                  <div class="form-label-group">
+                <input name="mail"  type="text" class="form-control" placeholder="Email ID" value="" required/>
+                      <label for="inputEmail">Enter Email Address......</label>
+              </div>
+
+              <div class="custom-control custom-checkbox mb-3">
+                <input type="checkbox" class="custom-control-input" id="customCheck1">
                 <label class="custom-control-label" for="customCheck1">Remember password</label>
               </div>
               <button name="login" type="submit" style="background-color:#f229cd;color:#ffffff;" class="btn btn-lg btn-default btn-block text-uppercase" type="submit">Start Exploring</button>
             </form>
-          </div>
+              </div>
         </div>
       </div>
     </div>
-  </div>
+        </div></div></div>
 </body>
 </html>
