@@ -9,7 +9,16 @@ background: -webkit-linear-gradient(bottom, #ff84da 0%,#ff84da 0%,#ffffff 100%);
     background: linear-gradient(to top, #ff84da 0%,#ff84da 0%,#ffffff 70%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff84da', endColorstr='#ffffff',GradientType=0 );
 }
-
+.measure
+{
+    font-family: 'Aladin', cursive;
+ font-size:20px;
+}
+.container1
+{
+    margin-left:5%;
+    margin-right:5%;
+}
 .four
 {
     margin-top:50px;
@@ -89,7 +98,7 @@ background: -webkit-linear-gradient(bottom, #ff84da 0%,#ff84da 0%,#ffffff 100%);
 }
 
 .form-label-group>label {
-  position: absolute;
+  
   top: 0;
   left: 0;
   display: block;
@@ -120,20 +129,9 @@ background: -webkit-linear-gradient(bottom, #ff84da 0%,#ff84da 0%,#ffffff 100%);
 }
 
 .form-label-group input::placeholder {
-  color: transparent;
+  color: black;
 }
 
-.form-label-group input:not(:placeholder-shown) {
-  padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
-  padding-bottom: calc(var(--input-padding-y) / 3);
-}
-
-.form-label-group input:not(:placeholder-shown)~label {
-  padding-top: calc(var(--input-padding-y) / 3);
-  padding-bottom: calc(var(--input-padding-y) / 3);
-  font-size: 12px;
-  color: #777;
-}
 
 .btn-google {
   color: white;
