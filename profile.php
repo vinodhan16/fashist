@@ -44,43 +44,31 @@ mysqli_close($conn);
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
 </head>
 <body>
-<div class="container register-form">
-            <div class="form">
-                <div class="note">
-                    <p>Your Profile Settings.</p>
-                </div><form method="post" action="">
-                <div class="form-content">
-                    <div class="row">
-                        <div class="col-md-8">
-                            <div class="form-group">
-                                <input name="bust" type="text" class="form-control" placeholder="Bust size" value="" required/>
-                            </div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-md-8">
-                          <div class="form-group">
-                              <input name="hip" type="text" class="form-control" placeholder="Hip size" value="" required/>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-md-8">
-                        <div class="form-group">
-                            <input name="waist" type="text" class="form-control" placeholder="Waist size" value="" required/>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-8">
-                        <div class="form-group">
-                            <input name="height" type="text" class="form-control" placeholder="Height in cm" value="" required/>
-                        </div>
-                    </div>
-                </div>
-                <center><button name="pro" type="submit" class="btnSubmit">Submit</button></center>
-            </div>
-          </form>
-        </div>
+<div class="container">
+    <div class="card card-signin my-5">
+          <div class="card-body">
+              <div class="container">
+     <form class="form-signin" method="post" action="">
+             <div class="form-label-group">
+           <input name="bust" type="text" class="form-control" placeholder="Bust size" value="" required/>
+                <label for="inputEmail">Bust Size...</label>
+              </div>
+
+              <div class="form-label-group">
+                 <input name="hip" type="text" class="form-control" placeholder="Hip size" value="" required/>
+                  <label for="inputEmail">Hip Size...</label>
+              </div>
+                 <div class="form-label-group">
+                  <input name="waist" type="text" class="form-control" placeholder="Waist size" value="" required/>
+                     <label for="inputEmail">Waist Size...</label>
+              </div>
+                  <div class="form-label-group">
+                 <input name="height" type="text" class="form-control" placeholder="Height in cm" value="" required/>
+                      <label for="inputEmail">Height in cm......</label>
+              </div>
+
+            <center> <button name="login" type="submit" style="background-color:#f229cd;color:#ffffff;" class="btn  btn-default  text-uppercase" type="submit">Submit Profile</button></center> 
+            </form></div>
+        </div></div></div>
       </body>
       </html>
