@@ -52,29 +52,23 @@ mysqli_close($conn);
                   <br>
                   <p class="measure">Measurements</p>
      <form class="form-signin" method="post" action="">
-         <div class="row">
-             <div class="col-md-6 col-xs-6">
              <div class="form-label-group">
            <input name="bust" type="text" class="form-control" placeholder="Bust size" value="" required/>
               </div>
-</div>
-              <div class="col-md-6 col-xs-6">
+
               <div class="form-label-group">
                  <input name="hip" type="text" class="form-control" placeholder="Hip size" value="" required/>
-                  </div></div></div>
-            <div class="row">
-             <div class="col-md-6 col-xs-6">
+              </div>
                  <div class="form-label-group">
                   <input name="waist" type="text" class="form-control" placeholder="Waist size" value="" required/>
 
-                 </div></div>
-                 <div class="col-md-6 col-xs-6">
+              </div>
                   <div class="form-label-group">
                  <input name="height" type="text" class="form-control" placeholder="Height in cm" value="" required/>
-                     </div></div>
+              </div>
 
             <center> <button name="login" type="submit" style="background-color:#f229cd;color:#ffffff;" class="btn  btn-default  text-uppercase" type="submit">Submit Profile</button></center> 
-         </div>  </form>
-        </div></div></div></div>
+            </form></div>
+        </div></div></div>
       </body>
       </html>
