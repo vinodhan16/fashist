@@ -9,31 +9,24 @@ background: -webkit-linear-gradient(bottom, #ff84da 0%,#ff84da 0%,#ffffff 100%);
     background: linear-gradient(to top, #ff84da 0%,#ff84da 0%,#ffffff 70%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff84da', endColorstr='#ffffff',GradientType=0 );
 }
-}
-.one
-{
-    font-family: 'Kaushan Script', cursive;
 
-}
-.two
-{
-    font-family: 'Handlee', cursive;
-
-}
-.three
-{
-    font-family: 'Bad Script', cursive;
-
-}
 .four
 {
+    margin-top:50px;
     font-family: 'Rancho', cursive;
-
+ font-size:80px;
+    color:#ff84da;
+     text-shadow: 0 0 3px #000000, 0 0 5px #000000;
 }
-.five
+.fourmini
 {
-    font-family: 'Aladin', cursive;
-
+    margin-top:50px;
+    font-family: 'Rancho', cursive;
+ font-size:40px;
+}
+.btn-pink
+{
+    background-color:#f229cd;
 }
 .card-signin {
   border: 0;
@@ -45,11 +38,15 @@ background: -webkit-linear-gradient(bottom, #ff84da 0%,#ff84da 0%,#ffffff 100%);
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
     }
-
+.card-title
+{
+        font-family: 'Rancho', cursive;
+}
 .card-signin .card-title {
   margin-bottom: 2rem;
-  font-weight: 300;
-  font-size: 1.5rem;
+  font-weight: 400;
+  font-size: 2rem;
+    letter-spacing: 0.7px;
 }
 
 .card-signin .card-body {
@@ -175,4 +172,17 @@ background: -webkit-linear-gradient(bottom, #ff84da 0%,#ff84da 0%,#ffffff 100%);
     cursor: pointer;
     background: #0062cc;
     color: #fff;
+}
+@media screen and (max-width: 600px) {
+ .four
+{
+    margin-top:10px;
+    font-family: 'Rancho', cursive;
+ font-size:50px;
+     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+.fourmini
+{
+  display:none;
+}
 }
