@@ -4,13 +4,37 @@
 }
 
 body {
-  background: #e71af2;
-background: -webkit-linear-gradient(bottom, #f53aff 0%,#e71af2 0%,#ffffff 100%);
-    background: linear-gradient(to top, #e71af2 0%,#e71af2 0%,#ffffff 70%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#77bfff', endColorstr='#ffffff',GradientType=0 );
+  background: #ff84da;
+background: -webkit-linear-gradient(bottom, #ff84da 0%,#ff84da 0%,#ffffff 100%);
+    background: linear-gradient(to top, #ff84da 0%,#ff84da 0%,#ffffff 70%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff84da', endColorstr='#ffffff',GradientType=0 );
 }
 }
+.one
+{
+    font-family: 'Kaushan Script', cursive;
 
+}
+.two
+{
+    font-family: 'Handlee', cursive;
+
+}
+.three
+{
+    font-family: 'Bad Script', cursive;
+
+}
+.four
+{
+    font-family: 'Rancho', cursive;
+
+}
+.five
+{
+    font-family: 'Aladin', cursive;
+
+}
 .card-signin {
   border: 0;
   border-radius: 1.6rem;
