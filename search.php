@@ -45,6 +45,7 @@
                 <p class="measure">Search Results</p>
                <br>
             <div class="row">
+                <center>
                 <div class="col-md-3 col-sm-6 col-xs-6">
                     <div class="product-grid2">
                         <div class="product-image2">
@@ -65,7 +66,8 @@
                             <span class="price">₹ 599.99</span>
                         </div>
                     </div>
-                </div>
+                </div></center>
+                <center>
                 <div class="col-md-3 col-sm-6 col-xs-6">
                     <div class="product-grid2">
                         <div class="product-image2">
@@ -87,7 +89,8 @@
                             <span class="price">₹ 599.99</span>
                         </div>
                     </div>
-                </div>
+                </div></center>
+                <center>
                 <div class="col-md-3 col-sm-6 col-xs-6">
                     <div class="product-grid2">
                         <div class="product-image2">
@@ -109,7 +112,8 @@
                             <span class="price">₹ 599.99</span>
                         </div>
                     </div>
-                </div>
+                </div></center>
+                <center>
                 <div class="col-md-3 col-sm-6 col-xs-6">
                     <div class="product-grid2">
                         <div class="product-image2">
@@ -131,7 +135,7 @@
                             <span class="price">₹ 599.99</span>
                         </div>
                     </div>
-                </div>
+                </div></center>
             </div>
         </div>
 
