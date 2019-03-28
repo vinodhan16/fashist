@@ -15,30 +15,119 @@
 
 </head>
 <body>
-  <div class="container">
+  <div class="container1">
     <div class="row">
-        <div class="col-sm-12 col-md-5 col-lg-6 mx-auto">
-        <h1 class="four">Fashist</h1>
-            <h4 class="fourmini hidden-xs hidden-sm">Suggesting the Better for you!</h4>
+        <div class="col-xs-12 col-md-2 col-lg-3 mx-auto">
+            <br>
+       <img src="assets/images/demo.jpg" style="max-width:200px;">
         </div>
-      <div class="col-sm-12 col-md-7 col-lg-6 mx-auto">
+      <div class="col-xs-12 col-md-10 col-lg-9 mx-auto">
         <div class="card card-signin my-5">
           <div class="card-body">
-
-               <div class="tab-content" id="myTabContent">
-                     <div class="tab-pane fade show active p-3" id="one" role="tabpanel" aria-labelledby="one-tab">
-            <h5 class="card-title text-center">Lets find the best that fits you!</h5>
+         
+       
             <form class="form-signin" method="post" action="result.php">
+                     <div class="row">
+                 <div class="col-xs-8 col-md-9 col-lg-8 mx-auto">
               <div class="form-label-group">
                 <input name="search" type="text" class="form-control" placeholder="Occasion Type" required autofocus>
-              </div>
-              <button  type="submit" style="background-color:#f229cd;color:#ffffff;" class="btn btn-lg btn-default btn-block text-uppercase" type="submit">Find</button>
+              </div></div>
+                  <div class="col-xs-4 col-md-4 col-lg-4 mx-auto">
+                      <button  type="submit" style="background-color:#f229cd;color:#ffffff;" class="btn btn-lg btn-default btn-block text-uppercase" type="submit">Find Now!</button></div>
                 <br>
-
-            </form>
-          </div>
+</div>
+                  </form>
+                  
         </div>
       </div>
+          <div class="" id="ajax">
+           <div class="container product">
+                <p class="measure">Search Results</p>
+               <br>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="product-grid2">
+                        <div class="product-image2">
+                            <a href="#">
+                                <img class="pic-1" src="./assets/images/img1.jpg">
+                            </a>
+                        </div>
+                        <div class="product-content">
+                            <h3 class="title"><a href="#">Women's Designer Top</a></h3>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <br>
+                            <span class="price">₹ 599.99</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="product-grid2">
+                        <div class="product-image2">
+                            <a href="#">
+                                <img class="pic-1" src="./assets/images/img2.jpg">
+                            </a>
+                        
+                        </div>
+                        <div class="product-content">
+                            <h3 class="title"><a href="#">Women's Designer Top</a></h3>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <br>
+                            <span class="price">₹ 599.99</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="product-grid2">
+                        <div class="product-image2">
+                            <a href="#">
+                                <img class="pic-1" src="./assets/images/img3.jpg">
+                            </a>
+                         
+                        </div>
+                        <div class="product-content">
+                            <h3 class="title"><a href="#">Women's Designer Top</a></h3>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <br>
+                            <span class="price">₹ 599.99</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="product-grid2">
+                        <div class="product-image2">
+                            <a href="#">
+                                <img class="pic-1" src="./assets/images/img4.jpg">
+                            </a>
+                    
+                        </div>
+                        <div class="product-content">
+                            <h3 class="title"><a href="#">Women's Designer Top</a></h3>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <br>
+                            <span class="price">₹ 599.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
     </div>
         </div></div></div>
 </body>
