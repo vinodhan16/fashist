@@ -15,33 +15,29 @@
 
 </head>
 <body>
-  <div class="container1">
+  <div class="">
     <div class="row">
         <div class="col-xs-12 col-md-2  mx-auto">
             <br>
        <img src="assets/images/demo.jpg" style="max-width:100px;width:100%;">
         </div>
       <div class="col-xs-12 col-md-10  mx-auto">
-        <div class="card card-signin my-5">
-          <div class="card-body">
-         
-       
+        <div class="card card-signin ">
+          <div class="card-body" >
             <form class="form-signin" method="post" action="result.php">
                      <div class="row">
-                 <div class="col-xs-8 col-md-9 col-lg-8 mx-auto">
+                 <div class="col-xs-8 col-md-10 col-lg-10 mx-auto">
               <div class="form-label-group">
                 <input name="search" type="text" class="form-control" placeholder="Occasion Type" required autofocus>
               </div></div>
-                  <div class="col-xs-4 col-md-4 col-lg-4 mx-auto">
+                  <div class="col-xs-4 col-md-2 col-lg-2 mx-auto">
                       <button  type="submit" style="background-color:#f229cd;color:#ffffff;" class="btn btn-lg btn-default btn-block text-uppercase" type="submit">Find Now!</button></div>
                 <br>
 </div>
                   </form>
                   
         </div>
-      </div>
-          <div class="" id="ajax">
-           <div class="container product">
+           <div class="container">
                 <p class="measure">Search Results</p>
                <br>
             <div class="row">
