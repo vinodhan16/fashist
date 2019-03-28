@@ -216,21 +216,27 @@ background: -webkit-linear-gradient(bottom, #ff84da 0%,#ff84da 0%,#ffffff 100%);
 .tab-card-header > .tab-content {
   padding-bottom: 0;
 }
+.size
+{
+    max-width:100px;
+    height:20px;
+    
+}
 
 .navy
 {
     background-color:#232F3E;
-    padding:5px;
+    padding:2px;
 }
 .blue
 {
    background-color:#2874F0;
-    padding:5px; 
+    padding:2px; 
 }
 .red
 {
     background-color:#e40046;
-    padding:5px;
+    padding:2px;
 }
 
 /********************* Shopping product**********************/
