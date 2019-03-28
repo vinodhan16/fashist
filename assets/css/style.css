@@ -301,6 +301,14 @@ background-color:#ffffff;
  font-size:50px;
     text-shadow: 0 0 5px #000000, 0 0 2px #000000;
 }
+    .left
+    {
+        padding-left:70px;
+    }
+    .hidden-xs
+    {
+        display:none;
+    }
 .fourmini
 {
   display:none;
