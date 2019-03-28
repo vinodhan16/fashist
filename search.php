@@ -17,9 +17,9 @@
 <body>
   <div class="container1">
     <div class="row">
-        <div class="col-xs-12 col-md-2  mx-auto ">
+        <div class="col-xs-12 col-md-2  mx-auto">
             <br>
-       <img class="hidden-xs" src="assets/images/demo.jpg" style="max-width:200px;">
+       <img src="assets/images/demo.jpg" style="max-width:200px;">
         </div>
       <div class="col-xs-12 col-md-10  mx-auto">
         <div class="card card-signin my-5">
@@ -45,7 +45,6 @@
                 <p class="measure">Search Results</p>
                <br>
             <div class="row">
-                <center>
                 <div class="col-md-3 col-sm-6 col-xs-6">
                     <div class="product-grid2">
                         <div class="product-image2">
@@ -56,19 +55,17 @@
                         <div class="product-content">
                             <h3 class="title"><a href="#">Women's Designer Top</a></h3>
                             <p  class="title">Available on:</p>
-                            
-                                <center>
-                            <div class="row left">
+                            <div class="container">
+                            <div class="row">
                             <div class="col-xs-4"><div class="navy"><img class="size" src="assets/images/amazon.png"></div></div>
                                 <div class="col-xs-4"><div class="blue"><img class="size" src="assets/images/flipkart.png"></div></div>
                                 <div class="col-xs-4"><div class="red"><img class="size" src="assets/images/snap.png"></div></div>
-                            </div></center>
+                            </div></div>
                             <br>
                             <span class="price">₹ 599.99</span>
                         </div>
                     </div>
-                </div></center>
-                <center>
+                </div>
                 <div class="col-md-3 col-sm-6 col-xs-6">
                     <div class="product-grid2">
                         <div class="product-image2">
@@ -80,18 +77,17 @@
                         <div class="product-content">
                             <h3 class="title"><a href="#">Women's Designer Top</a></h3>
                                <p  class="title">Available on:</p>
-                                        <center>
-                            <div class="row left">
+                                       <div class="container">
+                            <div class="row">
                             <div class="col-xs-4"><div class="navy"><img class="size" src="assets/images/amazon.png"></div></div>
                                 <div class="col-xs-4"><div class="blue"><img class="size" src="assets/images/flipkart.png"></div></div>
                                 <div class="col-xs-4"><div class="red"><img class="size" src="assets/images/snap.png"></div></div>
-                            </div></center>
+                            </div></div>
                             <br>
                             <span class="price">₹ 599.99</span>
                         </div>
                     </div>
-                </div></center>
-                <center>
+                </div>
                 <div class="col-md-3 col-sm-6 col-xs-6">
                     <div class="product-grid2">
                         <div class="product-image2">
@@ -103,18 +99,17 @@
                         <div class="product-content">
                             <h3 class="title"><a href="#">Women's Designer Top</a></h3>
                            <p  class="title">Available on:</p>
-                                        <center>
-                            <div class="row left">
+                                       <div class="container">
+                            <div class="row">
                             <div class="col-xs-4"><div class="navy"><img class="size" src="assets/images/amazon.png"></div></div>
                                 <div class="col-xs-4"><div class="blue"><img class="size" src="assets/images/flipkart.png"></div></div>
                                 <div class="col-xs-4"><div class="red"><img class="size" src="assets/images/snap.png"></div></div>
-                            </div></center>
+                            </div></div>
                             <br>
                             <span class="price">₹ 599.99</span>
                         </div>
                     </div>
-                </div></center>
-                <center>
+                </div>
                 <div class="col-md-3 col-sm-6 col-xs-6">
                     <div class="product-grid2">
                         <div class="product-image2">
@@ -126,17 +121,17 @@
                         <div class="product-content">
                             <h3 class="title"><a href="#">Women's Designer Top</a></h3>
                           <p  class="title">Available on:</p>
-                               <center>
-                            <div class="row left">
+                             <div class="container">
+                            <div class="row">
                             <div class="col-xs-4"><div class="navy"><img class="size" src="assets/images/amazon.png"></div></div>
                                 <div class="col-xs-4"><div class="blue"><img class="size" src="assets/images/flipkart.png"></div></div>
                                 <div class="col-xs-4"><div class="red"><img class="size" src="assets/images/snap.png"></div></div>
-                            </div></center>
+                            </div></div>
                             <br>
                             <span class="price">₹ 599.99</span>
                         </div>
                     </div>
-                </div></center>
+                </div>
             </div>
         </div>
 
