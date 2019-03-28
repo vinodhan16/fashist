@@ -19,7 +19,7 @@
     <div class="row">
         <div class="col-xs-12 col-md-2  mx-auto">
             <br>
-       <img src="assets/images/demo.jpg" style="max-width:200px;">
+       <img src="assets/images/demo.jpg" style="max-width:100px;width:100%;">
         </div>
       <div class="col-xs-12 col-md-10  mx-auto">
         <div class="card card-signin my-5">
