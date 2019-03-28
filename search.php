@@ -54,12 +54,12 @@
                         </div>
                         <div class="product-content">
                             <h3 class="title"><a href="#">Women's Designer Top</a></h3>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <br>
+                            <p  class="title">Available on:</p>
+                            <div class="row">
+                            <div class="col-xs-4"><div class="navy"></div></div>
+                                <div class="col-xs-4"><div class="blue"></div></div>
+                                <div class="col-xs-4"><div class="red"></div></div>
+                            </div>
                             <span class="price">₹ 599.99</span>
                         </div>
                     </div>
@@ -74,12 +74,7 @@
                         </div>
                         <div class="product-content">
                             <h3 class="title"><a href="#">Women's Designer Top</a></h3>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <br>
+                               <p  class="title">Available on:</p>
                             <span class="price">₹ 599.99</span>
                         </div>
                     </div>
@@ -94,12 +89,7 @@
                         </div>
                         <div class="product-content">
                             <h3 class="title"><a href="#">Women's Designer Top</a></h3>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <br>
+                           <p  class="title">Available on:</p>
                             <span class="price">₹ 599.99</span>
                         </div>
                     </div>
@@ -114,12 +104,7 @@
                         </div>
                         <div class="product-content">
                             <h3 class="title"><a href="#">Women's Designer Top</a></h3>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <br>
+                          <p  class="title">Available on:</p>
                             <span class="price">₹ 599.99</span>
                         </div>
                     </div>

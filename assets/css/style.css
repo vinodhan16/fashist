@@ -217,7 +217,21 @@ background: -webkit-linear-gradient(bottom, #ff84da 0%,#ff84da 0%,#ffffff 100%);
   padding-bottom: 0;
 }
 
-
+.navy
+{
+    background-color:#232F3E;
+    padding:5px;
+}
+.blue
+{
+   background-color:#2874F0;
+    padding:5px; 
+}
+.red
+{
+    background-color:#e40046;
+    padding:5px;
+}
 
 /********************* Shopping product**********************/
 .demo{padding:45px 0}
