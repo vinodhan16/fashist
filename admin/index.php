@@ -9,8 +9,9 @@ $dress_type=$_POST['type'];
 $style=$_POST['style'];
 $color=$_POST['color'];
 $amazon=$_POST['amazon'];
+$price=$_POST['price'];
 $amazon=mysqli_real_escape_string($conn,$amazon);
-$sql="insert into upload_image(img,dress_type,style,color,amazon) VALUES('$img','$dress_type','$style','$color','$amazon')";
+$sql="insert into upload_image(img,dress_type,style,color,price,amazon) VALUES('$img','$dress_type','$style','$color','$price','$amazon')";
 $res=mysqli_query($conn,$sql);
 }
  ?>
@@ -34,10 +35,10 @@ $res=mysqli_query($conn,$sql);
               <div class="container1">
                    <h2 class="card-title text-center">Tell us More!</h2>
                   <br>
-                  <p class="measure">Measurements</p>
+                  <p class="measure">Enter Products</p>
      <form class="form-signin" method="post" action="">
              <div class="form-label-group">
-           <input name="userfile" type="text" class="form-control" value="" required/>
+           <input name="userfile" type="text" class="form-control" placeholder="Image Link" value="" required/>
               </div>
 
               <div class="form-label-group">
@@ -50,13 +51,16 @@ $res=mysqli_query($conn,$sql);
                  <input name="color" type="text" class="form-control" placeholder="Color" value="" required/>
               </div>
               <div class="form-label-group">
-             <input name="amazon" type="text" class="form-control" placeholder="amazon" value="" required/>
+             <input name="price" type="text" class="form-control" placeholder="Price" value="" required/>
+          </div>
+              <div class="form-label-group">
+             <input name="amazon" type="text" class="form-control" placeholder="Amazon" value=""/>
           </div>
           <div class="form-label-group">
-         <input name="flip" type="text" class="form-control" placeholder="flipkart" value="" required/>
+         <input name="flip" type="text" class="form-control" placeholder="Flipkart" value=""/>
       </div>
       <div class="form-label-group">
-     <input name="snap" type="text" class="form-control" placeholder="snapdeal" value="" required/>
+     <input name="snap" type="text" class="form-control" placeholder="Snapdeal" value=""/>
   </div>
 
 

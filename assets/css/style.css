@@ -15,7 +15,7 @@ background: -webkit-linear-gradient(bottom, #ff84da 0%,#ff84da 0%,#ffffff 100%);
 }
 .dropdown-toggle, .radius
 {
-    border-radius:12px !important; 
+    border-radius:12px !important;
 }
 .dropdown-toggle:hover
 {
@@ -144,7 +144,7 @@ background: -webkit-linear-gradient(bottom, #ff84da 0%,#ff84da 0%,#ffffff 100%);
 }
 
 .form-label-group>label {
-  
+
   top: 0;
   left: 0;
   display: block;
@@ -261,7 +261,7 @@ background: -webkit-linear-gradient(bottom, #ff84da 0%,#ff84da 0%,#ffffff 100%);
 {
     max-width:100px;
     height:20px;
-    
+
 }
 
 .navy
@@ -272,7 +272,7 @@ background: -webkit-linear-gradient(bottom, #ff84da 0%,#ff84da 0%,#ffffff 100%);
 .blue
 {
    background-color:#2874F0;
-    padding:2px; 
+    padding:2px;
 }
 .red
 {
@@ -349,7 +349,7 @@ background-color:#ffffff;
     .product
 {
   background-color:#ffffff;
- 
+
 }
     .title a
     {
@@ -360,5 +360,5 @@ background-color:#ffffff;
     max-width:55px;
     height:20px;
 }
-    
+
 }

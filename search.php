@@ -16,14 +16,14 @@
   <div class="products container1">
     <div class="row">
       <div class="col-md-2">
-        <center><img class="demo" src="assets/images/demo.jpg"></center>
+        <center><img class="demo" src="assets/images/demo.png"></center>
         </div>
          <div class="col-md-10 product">
              <div class="container1">
              <div class="row">
                  <div class="col-xs-6">
          <div class="dropdown">
-    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Select by category 
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Select by category
     <span class="caret"></span></button>
     <ul class="dropdown-menu">
          <li class="dropdown-submenu">
@@ -43,7 +43,7 @@
       </li>
       <li><a tabindex="-1" href="#">Casuals</a></li>
          <li><a tabindex="-1" href="#">Indian Festivals</a></li>
-     
+
     </ul>
   </div></div>
                  <div class="col-xs-6">  <center> <button name="search" type="submit" style="background-color:#f229cd;color:#ffffff;" class="btn  btn-default radius  text-uppercase" type="submit">Search Now !</button></center> </div>

@@ -3,10 +3,11 @@
 //$id = $_GET['id'];
 
 $conn=mysqli_connect('localhost','root','','fashion');
-$sql = "SELECT dress_type,img,amazon FROM upload_image";
+$sql = "SELECT * FROM upload_image";
 $res = mysqli_query($conn,$sql);
 $count=mysqli_num_rows($res);
 $row=mysqli_fetch_array($res);
+
 //echo $row['img'];
 
 ?>
@@ -34,33 +35,34 @@ $row=mysqli_fetch_array($res);
         <div class="card card-signin ">
            <div class="container">
                 <p class="measure">Search Results</p>
-               <br>
-            <div class="row">
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <div class="product-grid2">
-                        <div class="product-image2">
-                            <a href="#">
-                              <?php
-                              $a=$row['img'];
-                                echo "<img class='pic' src='$a'>";
-                                ?>
+              <?php
+              $img=$row['img'];
+                $a=$row['amazon'];$f=$row['flipkart'] ;$s=$row['snapdeal'];$p=$row['price'];
+               echo "<br>
+            <div class='row'>
+
+                <div class='col-md-3 col-sm-6 col-xs-6'>
+                    <div class='product-grid2'>
+                        <div class='product-image2'>
+                            <a href='#'>
+                                <img class='pic' src='$img'>
                             </a>
                         </div>
-                        <div class="product-content">
-                            <h3 class="title"><a href="#">Women's Designer Top</a></h3>
-                            <p  class="title">Available on:</p>
-                            <div class="container">
-                            <div class="row">
-                            <div class="col-xs-4"><div class="navy"><?php $a=$row['amazon']; echo "<a href='$a'><img class='size' src='../assets/images/amazon.png'></a>"; ?> </div></div>
-                                <div class="col-xs-4"><div class="blue"><img class="size" src="../assets/images/flipkart.png"></div></div>
-                                <div class="col-xs-4"><div class="red"><img class="size" src="../assets/images/snap.png"></div></div>
-                            </div></div>
+                        <div class='product-content'>
+                            <h3 class='title'><a href='#'>Women's Designer Top</a></h3>
+                            <p  class='title'>Available on:</p>
+                            <div class='container'>
+                            <div class='row'>";
+                            if($a!=""){echo "<div class='col-md-12'><div class='navy'><a href='$a'><img class='size' src='../assets/images/amazon.png'></a></div></div>";}
+                                 if ($f!=""){echo "<div class='col-md-12'><div class='blue'><a href='$f'><img class='size' src='../assets/images/flipkart.png'></a></div></div>";}
+                              if ($s!=""){echo "<div class='col-md-12'><div class='red'><a href='$s'><img class='size' src='../assets/images/snap.png'></a></div></div>";}
+                            echo"  </div></div>
                             <br>
-                            <span class="price">₹ 599.99</span>
+                            <span class='price'>₹ $p </span>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>";?>
         </div>
     </div>
         </div></div></div>
