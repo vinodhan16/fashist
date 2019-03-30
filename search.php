@@ -16,7 +16,7 @@
   <div class="products container1">
     <div class="row">
       <div class="col-md-2">
-        <center><img class="demo" src="assets/images/demo.png"></center>
+        <center><img class="demo" src="assets/images/demo.jpg"></center>
         </div>
          <div class="col-md-10 product">
              <div class="container1">
