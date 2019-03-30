@@ -45,7 +45,7 @@
              <div class="row">
                  <div class="col-xs-6">
          <div class="dropdown">
-  <select class="form-control" style="min-height:40px;border-radius:16px;font-size:20px;font-weight:400px;">
+  <select name="search" onchange="getResults(this.value);" class="form-control" style="min-height:40px;border-radius:16px;font-size:20px;font-weight:400px;">
   <option value="work_wear">Work Wear</option>
   <option value="corporate_parties">Corporate Parties</option>
     <option value="friday_dressing">Friday Dressing</option>
@@ -53,208 +53,13 @@
     <option value="brunch"  type="square">Brunch</option>
   <option value="high_tea_party">High Tea Party</option>
 </select>
-  
+
   </div></div>
                  <div class="col-xs-6">  <center> <button name="search" type="submit" style="background-color:#f229cd;color:#ffffff;" class="btn  btn-default radius  text-uppercase" type="submit">Search Now !</button></center> </div>
                  </div>
         </div>
-     <div class="top">
-            <div class="row">
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <div class="product-grid2">
-                        <div class="product-image2">
-                            <a href="#">
-                                <img class="pic-1" src="./assets/images/img1.jpg">
-                            </a>
-                        </div>
-                        <div class="product-content">
-                            <h3 class="title"><a href="#">Women's Designer Top</a></h3>
-                            <div class="row cont">
-                            <div class="col-xs-4 nopadding">
-                                <div class="navy"><img class="mini" src="assets/images/amazon.png"></div>
-                            </div>
-                                <div class="col-xs-4 nopadding">
-                                 <div class="blue"><img class="mini" src="assets/images/flipkart.png"></div>
-                            </div>
-                                <div class="col-xs-4 nopadding">
-                                 <div class="red"><img class="mini" src="assets/images/snap.png"></div>
-                            </div>
-                            </div>
-                            <span class="price">₹ 599.99</span>
-                        </div>
-                    </div>
-                </div>
-               <div class="col-md-3 col-sm-6 col-xs-6">
-                    <div class="product-grid2">
-                        <div class="product-image2">
-                            <a href="#">
-                                <img class="pic-1" src="./assets/images/img1.jpg">
-                            </a>
-                        </div>
-                        <div class="product-content">
-                            <h3 class="title"><a href="#">Women's Designer Top</a></h3>
-                            <div class="row cont">
-                            <div class="col-xs-4 nopadding">
-                                <div class="navy"><img class="mini" src="assets/images/amazon.png"></div>
-                            </div>
-                                <div class="col-xs-4 nopadding">
-                                 <div class="blue"><img class="mini" src="assets/images/flipkart.png"></div>
-                            </div>
-                                <div class="col-xs-4 nopadding">
-                                 <div class="red"><img class="mini" src="assets/images/snap.png"></div>
-                            </div>
-                            </div>
-                            <span class="price">₹ 599.99</span>
-                        </div>
-                    </div>
-                </div>
-               <div class="col-md-3 col-sm-6 col-xs-6">
-                    <div class="product-grid2">
-                        <div class="product-image2">
-                            <a href="#">
-                                <img class="pic-1" src="./assets/images/img1.jpg">
-                            </a>
-                        </div>
-                        <div class="product-content">
-                            <h3 class="title"><a href="#">Women's Designer Top</a></h3>
-                            <div class="row cont">
-                            <div class="col-xs-4 nopadding">
-                                <div class="navy"><img class="mini" src="assets/images/amazon.png"></div>
-                            </div>
-                                <div class="col-xs-4 nopadding">
-                                 <div class="blue"><img class="mini" src="assets/images/flipkart.png"></div>
-                            </div>
-                                <div class="col-xs-4 nopadding">
-                                 <div class="red"><img class="mini" src="assets/images/snap.png"></div>
-                            </div>
-                            </div>
-                            <span class="price">₹ 599.99</span>
-                        </div>
-                    </div>
-                </div>
-                 <div class="col-md-3 col-sm-6 col-xs-6">
-                    <div class="product-grid2">
-                        <div class="product-image2">
-                            <a href="#">
-                                <img class="pic-1" src="./assets/images/img1.jpg">
-                            </a>
-                        </div>
-                        <div class="product-content">
-                            <h3 class="title"><a href="#">Women's Designer Top</a></h3>
-                            <div class="row cont">
-                            <div class="col-xs-4 nopadding">
-                                <div class="navy"><img class="mini" src="assets/images/amazon.png"></div>
-                            </div>
-                                <div class="col-xs-4 nopadding">
-                                 <div class="blue"><img class="mini" src="assets/images/flipkart.png"></div>
-                            </div>
-                                <div class="col-xs-4 nopadding">
-                                 <div class="red"><img class="mini" src="assets/images/snap.png"></div>
-                            </div>
-                            </div>
-                            <span class="price">₹ 599.99</span>
-                        </div>
-                    </div>
-                </div>
-            </div><br><br><br>
-                     <div class="row">
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <div class="product-grid2">
-                        <div class="product-image2">
-                            <a href="#">
-                                <img class="pic-1" src="./assets/images/img1.jpg">
-                            </a>
-                        </div>
-                        <div class="product-content">
-                            <h3 class="title"><a href="#">Women's Designer Top</a></h3>
-                            <div class="row cont">
-                            <div class="col-xs-4 nopadding">
-                                <div class="navy"><img class="mini" src="assets/images/amazon.png"></div>
-                            </div>
-                                <div class="col-xs-4 nopadding">
-                                 <div class="blue"><img class="mini" src="assets/images/flipkart.png"></div>
-                            </div>
-                                <div class="col-xs-4 nopadding">
-                                 <div class="red"><img class="mini" src="assets/images/snap.png"></div>
-                            </div>
-                            </div>
-                            <span class="price">₹ 599.99</span>
-                        </div>
-                    </div>
-                </div>
-               <div class="col-md-3 col-sm-6 col-xs-6">
-                    <div class="product-grid2">
-                        <div class="product-image2">
-                            <a href="#">
-                                <img class="pic-1" src="./assets/images/img1.jpg">
-                            </a>
-                        </div>
-                        <div class="product-content">
-                            <h3 class="title"><a href="#">Women's Designer Top</a></h3>
-                            <div class="row cont">
-                            <div class="col-xs-4 nopadding">
-                                <div class="navy"><img class="mini" src="assets/images/amazon.png"></div>
-                            </div>
-                                <div class="col-xs-4 nopadding">
-                                 <div class="blue"><img class="mini" src="assets/images/flipkart.png"></div>
-                            </div>
-                                <div class="col-xs-4 nopadding">
-                                 <div class="red"><img class="mini" src="assets/images/snap.png"></div>
-                            </div>
-                            </div>
-                            <span class="price">₹ 599.99</span>
-                        </div>
-                    </div>
-                </div>
-               <div class="col-md-3 col-sm-6 col-xs-6">
-                    <div class="product-grid2">
-                        <div class="product-image2">
-                            <a href="#">
-                                <img class="pic-1" src="./assets/images/img1.jpg">
-                            </a>
-                        </div>
-                        <div class="product-content">
-                            <h3 class="title"><a href="#">Women's Designer Top</a></h3>
-                            <div class="row cont">
-                            <div class="col-xs-4 nopadding">
-                                <div class="navy"><img class="mini" src="assets/images/amazon.png"></div>
-                            </div>
-                                <div class="col-xs-4 nopadding">
-                                 <div class="blue"><img class="mini" src="assets/images/flipkart.png"></div>
-                            </div>
-                                <div class="col-xs-4 nopadding">
-                                 <div class="red"><img class="mini" src="assets/images/snap.png"></div>
-                            </div>
-                            </div>
-                            <span class="price">₹ 599.99</span>
-                        </div>
-                    </div>
-                </div>
-                 <div class="col-md-3 col-sm-6 col-xs-6">
-                    <div class="product-grid2">
-                        <div class="product-image2">
-                            <a href="#">
-                                <img class="pic-1" src="./assets/images/img1.jpg">
-                            </a>
-                        </div>
-                        <div class="product-content">
-                            <h3 class="title"><a href="#">Women's Designer Top</a></h3>
-                            <div class="row cont">
-                            <div class="col-xs-4 nopadding">
-                                <div class="navy"><img class="mini" src="assets/images/amazon.png"></div>
-                            </div>
-                                <div class="col-xs-4 nopadding">
-                                 <div class="blue"><img class="mini" src="assets/images/flipkart.png"></div>
-                            </div>
-                                <div class="col-xs-4 nopadding">
-                                 <div class="red"><img class="mini" src="assets/images/snap.png"></div>
-                            </div>
-                            </div>
-                            <span class="price">₹ 599.99</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+     <div id="top" class="top">
+
         </div>
 </div>
       </div></div>
@@ -266,5 +71,15 @@ $(document).ready(function(){
     e.preventDefault();
   });
 });
+function getResults(search) {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     document.getElementById("top").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "result.php?search="+search, true);
+  xhttp.send();
+}
 </script>
 </body>

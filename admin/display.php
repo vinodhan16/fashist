@@ -39,9 +39,9 @@ $row=mysqli_fetch_array($res);
               $img=$row['img'];
                 $a=$row['amazon'];$f=$row['flipkart'] ;$s=$row['snapdeal'];$p=$row['price'];
                echo "<br>
-            <div class='row'>
+            <div class='row'>";
 
-                <div class='col-md-3 col-sm-6 col-xs-6'>
+              echo "<div class='col-md-3 col-sm-6 col-xs-6'>
                     <div class='product-grid2'>
                         <div class='product-image2'>
                             <a href='#'>
@@ -61,8 +61,29 @@ $row=mysqli_fetch_array($res);
                             <span class='price'>₹ $p </span>
                         </div>
                     </div>
-                </div>
-            </div>";?>
+                </div>";
+                echo "<div class='col-md-3 col-sm-6 col-xs-6'>
+                      <div class='product-grid2'>
+                          <div class='product-image2'>
+                              <a href='#'>
+                                  <img class='pic' src='$img'>
+                              </a>
+                          </div>
+                          <div class='product-content'>
+                              <h3 class='title'><a href='#'>Women's Designer Top</a></h3>
+                              <p  class='title'>Available on:</p>
+                              <div class='container'>
+                              <div class='row'>";
+                              if($a!=""){echo "<div class='col-md-12'><div class='navy'><a href='$a'><img class='size' src='../assets/images/amazon.png'></a></div></div>";}
+                                   if ($f!=""){echo "<div class='col-md-12'><div class='blue'><a href='$f'><img class='size' src='../assets/images/flipkart.png'></a></div></div>";}
+                                if ($s!=""){echo "<div class='col-md-12'><div class='red'><a href='$s'><img class='size' src='../assets/images/snap.png'></a></div></div>";}
+                              echo"  </div></div>
+                              <br>
+                              <span class='price'>₹ $p </span>
+                          </div>
+                      </div>
+                  </div>";
+          echo "</div>";?>
         </div>
     </div>
         </div></div></div>
