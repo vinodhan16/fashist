@@ -10,6 +10,57 @@ background: -webkit-linear-gradient(bottom, #ff84da 0%,#ff84da 0%,#ffffff 100%);
     background: linear-gradient(to top, #ff84da 0%,#ff84da 0%,#ffffff 70%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff84da', endColorstr='#ffffff',GradientType=0 );
 }
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-toggle, .radius
+{
+    border-radius:12px !important;
+}
+.dropdown-toggle:hover
+{
+   text-decoration: none !important;
+    background-color: transparent;
+}
+.pad
+{
+   margin-top:5px;
+    padding:0px;
+    background-color:#ffffff;
+}
+.paddy
+{
+    padding:3px;
+}
+
+.top
+{
+    margin-top:40px;
+}
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+    border-radius:12px;
+  margin-top: -1px;
+}
+.demo
+{
+    max-width:180px;
+    width:100%;
+}
+.mini
+{
+    max-width:60px;
+    height:20px;
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+.cont
+{
+    padding:5px;
+}
 .measure
 {
     font-family: 'Aladin', cursive;
@@ -104,7 +155,7 @@ background: -webkit-linear-gradient(bottom, #ff84da 0%,#ff84da 0%,#ffffff 100%);
 }
 
 .form-label-group>label {
-  
+
   top: 0;
   left: 0;
   display: block;
@@ -221,7 +272,7 @@ background: -webkit-linear-gradient(bottom, #ff84da 0%,#ff84da 0%,#ffffff 100%);
 {
     max-width:100px;
     height:20px;
-    
+
 }
 
 .navy
@@ -232,7 +283,7 @@ background: -webkit-linear-gradient(bottom, #ff84da 0%,#ff84da 0%,#ffffff 100%);
 .blue
 {
    background-color:#2874F0;
-    padding:2px; 
+    padding:2px;
 }
 .red
 {
@@ -309,10 +360,20 @@ background-color:#ffffff;
     .product
 {
   background-color:#ffffff;
- 
+
 }
-    .product-grid2 .product-content {
-    padding: 10px 60px;
-    text-align: center;
+    .topper
+{
+    margin-top:110px;
 }
+    .title a
+    {
+        font-size:13px;
+    }
+   .mini
+{
+    max-width:55px;
+    height:20px;
+}
+
 }
