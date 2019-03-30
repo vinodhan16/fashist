@@ -46,17 +46,12 @@
                  <div class="col-xs-6">
          <div class="dropdown">
   <select class="form-control" style="min-height:40px;border-radius:16px;font-size:20px;font-weight:400px;">
-  <optgroup label="Office">
-    <option value="volvo"  type="square">Western</option>
-    <option value="saab">Indian</option>
-  </optgroup>
-         <option value="saab">Sports</option>
-  <optgroup label="Marriage">
-    <option value="mercedes">Bridesmaid</option>
-    <option value="audi">Bride</option>
-  </optgroup>
-      <option value="saab">Casuals</option>
-      <option value="saab">Indian Festivals</option>
+  <option value="work_wear">Work Wear</option>
+  <option value="corporate_parties">Corporate Parties</option>
+    <option value="friday_dressing">Friday Dressing</option>
+    <option value="night_out">Night out/ clubbing</option>
+    <option value="brunch"  type="square">Brunch</option>
+  <option value="high_tea_party">High Tea Party</option>
 </select>
   
   </div></div>
