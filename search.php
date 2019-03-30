@@ -16,7 +16,29 @@
   <div class="products container1">
     <div class="row">
       <div class="col-md-2">
-       <img class="demo" src="assets/images/demo.png">
+            <img class="demo hidden-xs hidden-sm" src="assets/images/demo.png">
+
+          <div class="row ">
+              <div class="col-xs-6">
+       <img class="demo visible-xs visible-sm" src="assets/images/demo.png">
+                  </div>
+              <div class="col-xs-6 col-md-12">
+                  <div class="topper">
+              <div class="card pad">
+                  <p class="paddy">Bust size : 12cm</p>
+                  </div>
+                        <div class="card pad">
+                  <p class="paddy">Hip size : 12cm</p>
+                  </div>
+                        <div class="card pad">
+                  <p class="paddy">Waist size : 12cm</p>
+                  </div>
+                        <div class="card pad">
+                  <p class="paddy">Height in cm : 12cm</p>
+                  </div>
+              </div></div>
+              </div>
+
         </div>
          <div class="col-md-10 product">
              <div class="container1">
@@ -43,6 +65,104 @@
         </div>
      <div class="top">
             <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="product-grid2">
+                        <div class="product-image2">
+                            <a href="#">
+                                <img class="pic-1" src="./assets/images/img1.jpg">
+                            </a>
+                        </div>
+                        <div class="product-content">
+                            <h3 class="title"><a href="#">Women's Designer Top</a></h3>
+                            <div class="row cont">
+                            <div class="col-xs-4 nopadding">
+                                <div class="navy"><img class="mini" src="assets/images/amazon.png"></div>
+                            </div>
+                                <div class="col-xs-4 nopadding">
+                                 <div class="blue"><img class="mini" src="assets/images/flipkart.png"></div>
+                            </div>
+                                <div class="col-xs-4 nopadding">
+                                 <div class="red"><img class="mini" src="assets/images/snap.png"></div>
+                            </div>
+                            </div>
+                            <span class="price">₹ 599.99</span>
+                        </div>
+                    </div>
+                </div>
+               <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="product-grid2">
+                        <div class="product-image2">
+                            <a href="#">
+                                <img class="pic-1" src="./assets/images/img1.jpg">
+                            </a>
+                        </div>
+                        <div class="product-content">
+                            <h3 class="title"><a href="#">Women's Designer Top</a></h3>
+                            <div class="row cont">
+                            <div class="col-xs-4 nopadding">
+                                <div class="navy"><img class="mini" src="assets/images/amazon.png"></div>
+                            </div>
+                                <div class="col-xs-4 nopadding">
+                                 <div class="blue"><img class="mini" src="assets/images/flipkart.png"></div>
+                            </div>
+                                <div class="col-xs-4 nopadding">
+                                 <div class="red"><img class="mini" src="assets/images/snap.png"></div>
+                            </div>
+                            </div>
+                            <span class="price">₹ 599.99</span>
+                        </div>
+                    </div>
+                </div>
+               <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="product-grid2">
+                        <div class="product-image2">
+                            <a href="#">
+                                <img class="pic-1" src="./assets/images/img1.jpg">
+                            </a>
+                        </div>
+                        <div class="product-content">
+                            <h3 class="title"><a href="#">Women's Designer Top</a></h3>
+                            <div class="row cont">
+                            <div class="col-xs-4 nopadding">
+                                <div class="navy"><img class="mini" src="assets/images/amazon.png"></div>
+                            </div>
+                                <div class="col-xs-4 nopadding">
+                                 <div class="blue"><img class="mini" src="assets/images/flipkart.png"></div>
+                            </div>
+                                <div class="col-xs-4 nopadding">
+                                 <div class="red"><img class="mini" src="assets/images/snap.png"></div>
+                            </div>
+                            </div>
+                            <span class="price">₹ 599.99</span>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="product-grid2">
+                        <div class="product-image2">
+                            <a href="#">
+                                <img class="pic-1" src="./assets/images/img1.jpg">
+                            </a>
+                        </div>
+                        <div class="product-content">
+                            <h3 class="title"><a href="#">Women's Designer Top</a></h3>
+                            <div class="row cont">
+                            <div class="col-xs-4 nopadding">
+                                <div class="navy"><img class="mini" src="assets/images/amazon.png"></div>
+                            </div>
+                                <div class="col-xs-4 nopadding">
+                                 <div class="blue"><img class="mini" src="assets/images/flipkart.png"></div>
+                            </div>
+                                <div class="col-xs-4 nopadding">
+                                 <div class="red"><img class="mini" src="assets/images/snap.png"></div>
+                            </div>
+                            </div>
+                            <span class="price">₹ 599.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div><br><br><br>
+                     <div class="row">
                 <div class="col-md-3 col-sm-6 col-xs-6">
                     <div class="product-grid2">
                         <div class="product-image2">
