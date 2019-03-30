@@ -25,13 +25,13 @@
          <div class="dropdown">
   <select class="form-control" style="min-height:40px;border-radius:16px;font-size:20px;font-weight:400px;">
   <optgroup label="Office">
-    <option value="volvo"  type="square">* Western</option>
-    <option value="saab">* Indian</option>
+    <option value="volvo"  type="square">Western</option>
+    <option value="saab">Indian</option>
   </optgroup>
          <option value="saab">Sports</option>
   <optgroup label="Marriage">
-    <option value="mercedes">*Bridesmaid</option>
-    <option value="audi">*Bride</option>
+    <option value="mercedes">Bridesmaid</option>
+    <option value="audi">Bride</option>
   </optgroup>
       <option value="saab">Casuals</option>
       <option value="saab">Indian Festivals</option>
