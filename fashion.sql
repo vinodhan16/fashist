@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 30, 2019 at 08:25 PM
+-- Generation Time: Apr 01, 2019 at 02:56 PM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 7.3.1
 
@@ -208,8 +208,13 @@ CREATE TABLE `upload_image` (
 --
 
 INSERT INTO `upload_image` (`img`, `dress_type`, `occasion`, `style`, `color`, `name`, `price`, `amazon`, `flipkart`, `snapdeal`) VALUES
-('https://images-na.ssl-images-amazon.com/images/I/61ePP1T6NrL._UL1431_.jpg', 'Tops', '', 'V-neck,sleeve', 'pink', 'VITANS Women Contrast Binding Roll Tab Sleeve Top', 799, 'https://www.amazon.in/VITANS-Women-Contrast-Binding-Sleeve/dp/B07KK2YSS9/ref=sr_1_33?keywords=women+tops+office&qid=1553954537&s=gateway&sr=8-33', '', ''),
-('jadvnalc', 'skirt', 'Office Wear', 'Halter Neck,Sleeve,yetho', 'karuppu', 'name', 100000000, 'cadlklvlda', '', '');
+('https://images-na.ssl-images-amazon.com/images/I/81zLsg0gtpL._UL1500_.jpg', 'Tops', 'brunch,high_tea_party', 'Racer Back,Round Neck', 'Black', 'Just a top', 145, 'https://www.amazon.in/Jockey-Womens-Cotton-Racerback-Tank/dp/B014CLL42U/ref=sr_1_4?pf_rd_i=1953602031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=d15cc655-3e61-4963-9ab0-ff31145f2b99&pf_rd_r=N0HS5ME302DM36SKSDWP&pf_rd_s=merchandised-search-6&pf_rd_t=101&qid=1553974895&s=apparel&sr=1-4', '', ''),
+('https://images-na.ssl-images-amazon.com/images/I/81VkRfni1ML._UL1500_.jpg', 'Tops', 'corporate_parties,brunch,high_tea_party', 'Cap Sleeves,Round Neck', 'Navy,Prussian', 'Another top', 269, 'https://www.amazon.in/OOMPH-Womens-Crepe-Tank-Top/dp/B07HGBFSC7/ref=sr_1_2?pf_rd_i=1953602031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=d15cc655-3e61-4963-9ab0-ff31145f2b99&pf_rd_r=N0HS5ME302DM36SKSDWP&pf_rd_s=merchandised-search-6&pf_rd_t=101&qid=1553975876&refinements=p_n_feature_three_browse-bin%3A3765387031&rnid=1974917031&s=apparel&sr=1-2\r\n', '', ''),
+('https://images-na.ssl-images-amazon.com/images/I/61YVxtn8WDL._UL1500_.jpg', 'Trouser', 'brunch,work_wear,friday_dressing', 'pallazo,wide leg', 'Black,Crimson,Maroon', 'A Pallazo pant', 329, 'https://www.amazon.in/Rooliums-Womens-Cotton-Palazzo-Pack/dp/B071DGPHLV/ref=sr_1_4?pf_rd_i=1953602031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=d15cc655-3e61-4963-9ab0-ff31145f2b99&pf_rd_r=N0HS5ME302DM36SKSDWP&pf_rd_s=merchandised-search-6&pf_rd_t=101&qid=1553976185&refinements=p_n_feature_thre', '', ''),
+('https://images-na.ssl-images-amazon.com/images/I/71CE6xqLGKL._UL1500_.jpg', 'Trouser', 'brunch,friday_dressing,night_out', 'Skinny', 'Ultramarine,Prussian', 'Skinny jean', 752, 'https://www.amazon.in/VERO-MODA-Womens-Skinny-Pants/dp/B071LDS756/ref=sr_1_7?pf_rd_i=1953602031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=d15cc655-3e61-4963-9ab0-ff31145f2b99&pf_rd_r=N0HS5ME302DM36SKSDWP&pf_rd_s=merchandised-search-6&pf_rd_t=101&qid=1553976485&refinements=p_n_feature_three_browse-bin%3A3765387031%2Cp_n_style_browse-bin%3A1975054031&rnid=1975040031&s=apparel&sr=1-7\r\n', '', ''),
+('https://images-na.ssl-images-amazon.com/images/I/71jzc5M5FyL._UL1500_.jpg', 'Skirt', 'corporate_parties,high_tea_party', 'Flared,A Line', 'Maroon,Crimson,Ruby Red', 'a skirt', 791, 'https://www.amazon.in/Addyvero/dp/B078WRP4QL/ref=sr_1_10?pf_rd_i=1953602031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=d15cc655-3e61-4963-9ab0-ff31145f2b99&pf_rd_r=N0HS5ME302DM36SKSDWP&pf_rd_s=merchandised-search-6&pf_rd_t=101&qid=1553976907&refinements=p_n_feature_three_browse-bin%3A3765387031%2Cp_n_style_browse-bin%3A1975054031&rnid=11400137031&s=apparel&sr=1-10', '', ''),
+('https://images-na.ssl-images-amazon.com/images/I/81elLgvQGKL._UL1500_.jpg', 'Dresses', 'night_out,corporate_parties', 'Mini', 'Black', 'A dress like that', 1209, 'https://www.amazon.in/Miss-Chase-Womens-Black-Skater/dp/B07KSMJWRM/ref=sr_1_3?pf_rd_i=1953602031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=d15cc655-3e61-4963-9ab0-ff31145f2b99&pf_rd_r=N0HS5ME302DM36SKSDWP&pf_rd_s=merchandised-search-6&pf_rd_t=101&qid=1553977182&refinements=p_n_feature_three_browse-bin%3A3765387031%2Cp_n_style_browse-bin%3A1975054031%2Cp_n_feature_six_browse-bin%3A1974766031&rnid=1974765031&s=apparel&sr=1-3', '', ''),
+('https://images-na.ssl-images-amazon.com/images/I/71kXsCKlrWL._UL1500_.jpg', 'Dresses', 'corporate_parties,high_tea_party,night_out', 'Mini,A Line', 'Navy,Prussian', 'another dress', 819, 'https://www.amazon.in/Miss-Chase-Womens-Tie-Up-Shift/dp/B07GFMKH5V/ref=sr_1_21?pf_rd_i=1953602031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=d15cc655-3e61-4963-9ab0-ff31145f2b99&pf_rd_r=N0HS5ME302DM36SKSDWP&pf_rd_s=merchandised-search-6&pf_rd_t=101&qid=1553977182&refinements=p_n_feature_three_browse-bin%3A3765387031%2Cp_n_style_browse-bin%3A1975054031%2Cp_n_feature_six_browse-bin%3A1974766031&rnid=1974765031&s=apparel&sr=1-21', '', '');
 
 -- --------------------------------------------------------
 
@@ -234,7 +239,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `mail`, `password`, `phone`, `waist`, `body_shape`, `skin`, `height`) VALUES
-('USR5c989a705800c', 'vinodhan vijayamoorthy', 'vinodhan.thunderbolt@gmail.com', '12345', 8056012353, 10, 'Rectangle', 'fair', '160');
+('USR5c989a705800c', 'vinodhan vijayamoorthy', 'vinodhan.thunderbolt@gmail.com', '12345', 8056012353, 10, 'Rectangle', 'fair', '160'),
+('USR5ca204521f72f', 'Pooja', 'pooja.anandan0294@gmail.com', 'poochi', 7401773079, 11, 'Rectangle', 'fair', '165');
 
 -- --------------------------------------------------------
 
