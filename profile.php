@@ -67,7 +67,7 @@ mysqli_close($conn);
                  <input name="height" type="text" class="form-control" placeholder="Height in cm" value="" required/>
               </div>
 
-            <center> <button name="login" type="submit" style="background-color:#f229cd;color:#ffffff;" class="btn  btn-default  text-uppercase" type="submit">Submit Profile</button></center> 
+            <center> <button name="pro" type="submit" style="background-color:#f229cd;color:#ffffff;" class="btn  btn-default  text-uppercase" type="submit">Submit Profile</button></center> 
             </form></div>
         </div></div></div>
       </body>

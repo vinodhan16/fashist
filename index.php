@@ -13,7 +13,7 @@ if($count>0)
   $row=mysqli_fetch_array($res);
   $_SESSION['id']=$row['id'];
   //echo "<script type='text/javascript'> alert('SUCCESS'); </script>";
- header('location: /fashist/profile.php');
+ header('location: /fashist/search.php');
 }
 else {
   echo "<script type='text/javascript'> alert('Invalid Credentials'); </script>";
@@ -32,7 +32,7 @@ $sql = "INSERT into users (id,name,mail,password,phone) VALUES('$id','$name','$e
 //   echo $sql;
 mysqli_query($conn,$sql);
 $_SESSION['id']=$id;
-header('location: /fashist/index.php');
+header('location: /fashist/profile.php');
 mysqli_close($conn);
 }
  ?>
