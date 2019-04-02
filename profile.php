@@ -66,7 +66,16 @@ mysqli_close($conn);
                   <div class="form-label-group">
                  <input name="height" type="text" class="form-control" placeholder="Height in cm" value="" required/>
               </div>
-
+         <div class="form-label-group">
+       <center>  <ul id="menulist">
+        <li><img src="./assets/images/fair.png"></li>     
+             <li><img src="./assets/images/olive.png"></li> 
+                 <li><img src="./assets/images/light%20brown.png"></li> 
+                 <li><img src="./assets/images/brown.png"></li> 
+                 <li><img src="./assets/images/dark%20brown.png"></li> 
+                 <li><img src="./assets/images/black%20brown.png"></li> 
+        </ul></center>
+         </div>
             <center> <button name="pro" type="submit" style="background-color:#f229cd;color:#ffffff;" class="btn  btn-default  text-uppercase" type="submit">Submit Profile</button></center> 
             </form></div>
         </div></div></div>
