@@ -16,7 +16,7 @@
   <div class="products container1">
     <div class="row">
       <div class="col-md-2">
-            <img class="demo hidden-xs hidden-sm" src="assets/images/demo.png">
+            <img class="demo hidden-xs hidden-sm" src="assets/images/triangle.png">
 
           <div class="row ">
               <div class="col-xs-6">
@@ -25,16 +25,16 @@
               <div class="col-xs-6 col-md-12">
                   <div class="topper">
               <div class="card pad">
-                  <p class="paddy">Bust size : 12cm</p>
+                  <p class="paddy">1) Bust size : 12cm</p>
                   </div>
                         <div class="card pad">
-                  <p class="paddy">Hip size : 12cm</p>
+                  <p class="paddy">2) Hip size : 12cm</p>
                   </div>
                         <div class="card pad">
-                  <p class="paddy">Waist size : 12cm</p>
+                  <p class="paddy">3) Waist size : 12cm</p>
                   </div>
                         <div class="card pad">
-                  <p class="paddy">Height in cm : 12cm</p>
+                  <p class="paddy">4) Height in cm : 12cm</p>
                   </div>
               </div></div>
               </div>
