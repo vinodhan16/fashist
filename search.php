@@ -36,7 +36,7 @@ $row=mysqli_fetch_array($res);
               <div class="col-xs-6 col-md-12">
                   <div class="topper">
               <div class="card pad">
-                  <p class="paddy">1) Shoulder : 36cm</p>
+                  <p class="paddy">1) Shoulder : 35cm</p>
                   </div>
                         <div class="card pad">
                   <p class="paddy"><?php echo "2) Bust size : ".$row['bust']."cm"; ?></p>
