@@ -50,9 +50,9 @@ if(!isset($_SESSION['id']))
          <div class="col-md-10 product">
              <div class="container1">
              <div class="row">
-                 <div class="col-md-6">
+                 <div class="col-xs-3">
          <div class="dropdown">
-  <select onchange="getResults(this.value);" class="form-control" style="min-height:40px;border-radius:16px;font-size:20px;font-weight:400px;">
+  <select name="search" onchange="getResults(this.value);" class="form-control" style="min-height:40px;border-radius:16px;font-size:18px;font-weight:400px;">
   <option value="work_wear">Work Wear</option>
   <option value="corporate_parties">Corporate Parties</option>
     <option value="friday_dressing">Friday Dressing</option>
@@ -61,9 +61,14 @@ if(!isset($_SESSION['id']))
   <option value="high_tea_party">High Tea Party</option>
 </select>
 
-</div></div>
-                 <div class="col-md-6">
-                     </div></div><center><button name="search" type="submit" style="background-color:#f229cd;color:#ffffff;" class="btn  btn-default radius  text-uppercase" type="submit">Search Now !</button><center></div>
+  </div></div>
+                 <div class="col-xs-6">
+                   <div class="form-label-group">
+                 <input name="hip" type="text" class="form-control" placeholder="Search by Products and many more..." value="" style="min-height:20px;border-radius:16px;font-size:17px;font-weight:400px;" required/>
+              </div>
+
+                 </div>
+                 <div class="col-xs-3">  <center> <button name="search" type="submit" style="background-color:#f229cd;color:#ffffff;border:none;" class="btn  btn-default radius  text-uppercase" type="submit">Search Now !</button></center> </div>
                  </div>
         </div>
      <div id="top" class="top">
