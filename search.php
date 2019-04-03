@@ -1,3 +1,10 @@
+<?php
+session_start();
+if(!isset($_SESSION['id']))
+{
+  header('Location : fashist/index.php');
+}
+ ?>
 <html>
 <head>
  <meta charset="utf-8">
@@ -16,25 +23,25 @@
   <div class="products container1">
     <div class="row">
       <div class="col-md-2">
-            <img class="demo hidden-xs hidden-sm" src="assets/images/triangle.png">
+            <img class="demo hidden-xs hidden-sm" src="assets/images/triangle-site.png">
 
           <div class="row ">
               <div class="col-xs-6">
-       <img class="demo visible-xs visible-sm" src="assets/images/demo.png">
+       <img style="height:450px;" class="demo visible-xs visible-sm" src="assets/images/inverted-mob.png">
                   </div>
               <div class="col-xs-6 col-md-12">
                   <div class="topper">
               <div class="card pad">
-                  <p class="paddy">1) Bust size : 12cm</p>
+                  <p class="paddy">1) Shoulder : 12cm</p>
                   </div>
                         <div class="card pad">
-                  <p class="paddy">2) Hip size : 12cm</p>
+                  <p class="paddy">2) Bust size : 12cm</p>
                   </div>
                         <div class="card pad">
                   <p class="paddy">3) Waist size : 12cm</p>
                   </div>
                         <div class="card pad">
-                  <p class="paddy">4) Height in cm : 12cm</p>
+                  <p class="paddy">4) Hip size : 12cm</p>
                   </div>
               </div></div>
               </div>
@@ -43,9 +50,9 @@
          <div class="col-md-10 product">
              <div class="container1">
              <div class="row">
-                 <div class="col-xs-6">
+                 <div class="col-md-6">
          <div class="dropdown">
-  <select name="search" onchange="getResults(this.value);" class="form-control" style="min-height:40px;border-radius:16px;font-size:20px;font-weight:400px;">
+  <select onchange="getResults(this.value);" class="form-control" style="min-height:40px;border-radius:16px;font-size:20px;font-weight:400px;">
   <option value="work_wear">Work Wear</option>
   <option value="corporate_parties">Corporate Parties</option>
     <option value="friday_dressing">Friday Dressing</option>
@@ -54,8 +61,9 @@
   <option value="high_tea_party">High Tea Party</option>
 </select>
 
-  </div></div>
-                 <div class="col-xs-6">  <center> <button name="search" type="submit" style="background-color:#f229cd;color:#ffffff;" class="btn  btn-default radius  text-uppercase" type="submit">Search Now !</button></center> </div>
+</div></div>
+                 <div class="col-md-6">
+                     </div></div><center><button name="search" type="submit" style="background-color:#f229cd;color:#ffffff;" class="btn  btn-default radius  text-uppercase" type="submit">Search Now !</button><center></div>
                  </div>
         </div>
      <div id="top" class="top">
