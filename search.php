@@ -1,3 +1,10 @@
+<?php
+session_start();
+if(!isset($_SESSION['id']))
+{
+  header('Location : fashist/index.php');
+}
+ ?>
 <html>
 <head>
  <meta charset="utf-8">
@@ -16,26 +23,26 @@
   <div class="products container1">
     <div class="row">
       <div class="col-md-2">
-            <img class="demo hidden-xs hidden-sm" src="assets/images/triangle.png">
+            <img class="demo hidden-xs hidden-sm" src="assets/images/triangle-site.png">
 
           <div class="row ">
               <div class="col-xs-6">
-       <img class="demo visible-xs visible-sm" src="assets/images/demo.png">
+       <img style="height:450px;" class="demo visible-xs visible-sm" src="assets/images/inverted-mob.png">
                   </div>
               <div class="col-xs-6 col-md-12">
                   <div class="topper">
                         <center> <button name="pro" type="submit" style="background-color:#f229cd;color:#ffffff;" class="btn  btn-default  text-uppercase" type="submit">UPDATE DETAILS</button></center>
               <div class="card pad">
-                  <p class="paddy">1) Bust size : 12cm</p>
+                  <p class="paddy">1) Shoulder : 12cm</p>
                   </div>
                         <div class="card pad">
-                  <p class="paddy">2) Hip size : 12cm</p>
+                  <p class="paddy">2) Bust size : 12cm</p>
                   </div>
                         <div class="card pad">
                   <p class="paddy">3) Waist size : 12cm</p>
                   </div>
                         <div class="card pad">
-                  <p class="paddy">4) Height in cm : 12cm</p>
+                  <p class="paddy">4) Hip size : 12cm</p>
                   </div>
               </div></div>
               </div>
@@ -60,7 +67,7 @@
                    <div class="form-label-group">
                  <input name="hip" type="text" class="form-control" placeholder="Search by Products and many more..." value="" style="min-height:20px;border-radius:16px;font-size:17px;font-weight:400px;" required/>
               </div>
-                 
+
                  </div>
                  <div class="col-md-3">  <center> <button name="search" type="submit" style="background-color:#f229cd;color:#ffffff;border:none;" class="btn  btn-default radius  text-uppercase" type="submit">Search Now !</button></center> </div>
                  </div>
