@@ -4,6 +4,10 @@ if(!isset($_SESSION['id']))
 {
   header('Location : fashist/index.php');
 }
+$conn=mysqli_connect('localhost','root','','fashion');
+$sql="select bust,hip,waist,body_shape from users where id='".$_SESSION['id']."'";
+$res=mysqli_query($conn,$sql);
+$row=mysqli_fetch_array($res);
  ?>
 <html>
 <head>
@@ -23,28 +27,28 @@ if(!isset($_SESSION['id']))
   <div class="products container1">
     <div class="row">
       <div class="col-md-2">
-            <img class="demo hidden-xs hidden-sm" src="assets/images/triangle-site.png">
+          <?php  echo "<img class='demo hidden-xs hidden-sm' src='assets/images/".$row['body_shape']."-site.png'>";  ?>
 
           <div class="row ">
               <div class="col-xs-6">
-       <img style="height:450px;" class="demo visible-xs visible-sm" src="assets/images/inverted-mob.png">
+      <?php  echo "<img style='height:450px;' class='demo visible-xs visible-sm' src='assets/images/".$row['body_shape']."-mob.png'>"; ?>
                   </div>
               <div class="col-xs-6 col-md-12">
                   <div class="topper">
-                        <center> <button name="pro" type="submit" style="background-color:#f229cd;color:#ffffff;" class="btn  btn-default  text-uppercase" type="submit">UPDATE DETAILS</button></center>
               <div class="card pad">
                   <p class="paddy">1) Shoulder : 12cm</p>
                   </div>
                         <div class="card pad">
-                  <p class="paddy">2) Bust size : 12cm</p>
+                  <p class="paddy"><?php echo "2) Bust size : ".$row['bust']."cm"; ?></p>
                   </div>
                         <div class="card pad">
-                  <p class="paddy">3) Waist size : 12cm</p>
+                  <p class="paddy"><?php echo "3) Waist size : ".$row['waist']."cm"; ?></p>
                   </div>
                         <div class="card pad">
-                  <p class="paddy">4) Hip size : 12cm</p>
+                  <p class="paddy"><?php echo "4) Hip size : ".$row['hip']."cm";?></p>
                   </div>
-              </div></div>
+
+              </div><center><a href="/fashist/profile.php"> <button name="pro" type="submit" style="background-color:#f229cd;color:#ffffff;" class="btn  btn-default  text-uppercase" type="submit">UPDATE DETAILS</button></a></center></div>
               </div>
 
         </div>
@@ -54,6 +58,7 @@ if(!isset($_SESSION['id']))
                  <div class="col-md-3">
          <div class="dropdown">
   <select name="search" onchange="getResults(this.value);" class="form-control" style="min-height:40px;border-radius:16px;font-size:18px;font-weight:400px;">
+    <option selected disabled>Select for Suggestion</option>
   <option value="work_wear">Work Wear</option>
   <option value="corporate_parties">Corporate Parties</option>
     <option value="friday_dressing">Friday Dressing</option>
@@ -65,11 +70,10 @@ if(!isset($_SESSION['id']))
   </div></div>
                  <div class="col-md-6">
                    <div class="form-label-group">
-                 <input name="hip" type="text" class="form-control" placeholder="Search by Products and many more..." value="" style="min-height:20px;border-radius:16px;font-size:17px;font-weight:400px;" required/>
+                 <input id="custom" type="text" class="form-control" placeholder="Search products of your interest" style="min-height:20px;border-radius:16px;font-size:17px;font-weight:400px;" required/>
               </div>
-
                  </div>
-                 <div class="col-md-3">  <center> <button name="search" type="submit" style="background-color:#f229cd;color:#ffffff;border:none;" class="btn  btn-default radius  text-uppercase" type="submit">Search Now !</button></center> </div>
+                 <div class="col-md-3"><center> <button name="search" onclick="customResults()" type="submit" style="background-color:#f229cd;color:#ffffff;border:none;" class="btn  btn-default radius  text-uppercase" type="submit">Search Now !</button></center> </div>
                  </div>
         </div>
      <div id="top" class="top">
@@ -93,6 +97,17 @@ function getResults(search) {
     }
   };
   xhttp.open("GET", "result.php?search="+search, true);
+  xhttp.send();
+}
+function customResults() {
+  var xhttp = new XMLHttpRequest();
+  var search= document.getElementById('custom').value;
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     document.getElementById("top").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "custom.php?search="+search, true);
   xhttp.send();
 }
 </script>

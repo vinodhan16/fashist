@@ -8,6 +8,7 @@ $row=mysqli_fetch_array($res);
 $body_shape=$row['body_shape'];
 $skin=$row['skin'];
 $sql="select dress_type,$body_shape from $occ";
+//echo $sql;
 $res=mysqli_query($conn,$sql);
 $i=0;
 $type=array();
@@ -62,8 +63,14 @@ $sql=$sql.")";
 $res=mysqli_query($conn,$sql);
 $final="<br>
 <div class='row'>";
+$i=0;
 while($row=mysqli_fetch_array($res))
 {
+  if($i%4==0)
+  {
+    $final=$final."</div><br>
+    <div class='row'>";
+  }
   $img=$row['img'];
     $a=$row['amazon'];$f=$row['flipkart'] ;$s=$row['snapdeal'];$p=$row['price'];
     $final=$final."<div class='col-md-3 col-sm-6 col-xs-6'>
@@ -86,6 +93,7 @@ while($row=mysqli_fetch_array($res))
               </div>
           </div>
       </div>";
+      $i++;
 }
 $final=$final."</div>";
 echo $final;
